@@ -102,3 +102,21 @@ overflow-x: scroll;
 #para_about{
     color:rgb(237, 230, 230);
 }
+
+ @media (max-width: 800px) {
+    body{
+        width: 100vw;
+    }
+    .future_container{
+        display: flex;
+        width: fit-content;
+    }
+    .card_container{
+        display: flex;
+        width: fit-content;
+    }
+    nav{
+        width: 100vw;
+    }
+    
+} 
