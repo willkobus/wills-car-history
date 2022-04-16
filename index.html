@@ -11,34 +11,43 @@
 <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body> 
-  <nav class="navbar navbar-expand-lg navbar-light bg-dark nav_pos" id="home">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="" id="toolbar_text" id="home">Will's Car History</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#about" id="toolbar_text">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#past_gallery" id="toolbar_text">Past Cars</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#future_gallery" id="toolbar_text">Dream Cars</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://instagram.com/wills_car_collection" id="toolbar_text" target="_blank"
-                rel="noopener noreferrer">Instagram</a>
-              </li>
-            </ul>
-          </div>
+<body id="home"> 
+  <nav class="navbar navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Will's Car Collection</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-      </nav>
-      <div class="about_div" id="about">
-       
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#past_gallery">Past Cars</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#future_gallery">Dream Cars</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://instagram.com/wills_car_collection/" target="_blank"
+              rel="noopener noreferrer">Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div id="home"><h1>Welcome to Will's Car Collection!</h1></div>  
+      <div class="about_div" id="about"> 
       <section>
         <h2 >About</h2>
         <p id="para_about">This Website is a trubute to all the cars and trucks I have owned both past and present.
@@ -299,5 +308,6 @@
       </div>
     </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

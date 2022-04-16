@@ -1,5 +1,6 @@
 :root{
 --custom-white: rgb(237, 230, 230);
+--bg-color: #212529;
 }
 
 body{
@@ -13,7 +14,7 @@ section{
     height: fit-content;
     width: 75%;
     border: 1px solid;
-    background-color: #212529;
+    background-color: var(--bg-color);
     border-radius: 10px;
     flex-wrap: wrap;
     justify-content: center;
@@ -26,6 +27,15 @@ p{
     
 }
 
+h1{
+    margin-top: 7%; 
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color:var(--custom-white);
+    text-decoration: underline;
+    text-decoration-color: var(--custom-white);
+}
+
 h2{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     color:var(--custom-white);
@@ -34,22 +44,21 @@ h2{
     justify-content: center;
     padding-top: 5px;
 }
-nav{
+/* nav{
     display: flex;
-}
+} */
 
 
-.nav_pos{
+/* .nav_pos{
     position: fixed;
     left: 0;
     top: 0;
     z-index: 2;
     border-radius: 10px;
-}
+} */
 
 .about_div{
-    margin-top: 5%;
-    padding-top: 10px;
+    margin-top: 10%;
     display: flex;
     justify-content: center;
 }
