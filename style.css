@@ -45,18 +45,6 @@ h2{
     justify-content: center;
     padding-top: 5px;
 }
-/* nav{
-    display: flex;
-} */
-
-
-/* .nav_pos{
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 2;
-    border-radius: 10px;
-} */
 
 .about_div{
     margin-top: 10%;
@@ -89,6 +77,11 @@ width: fit-content;
 .spaced_out {
 padding: 10px;
 margin: 5px;
+}
+
+.card{
+    background-color: var(--bg-color);
+    color: var(--custom-white);
 }
 
 .outter_div {
