@@ -104,13 +104,12 @@ overflow-x: scroll;
     .future_container{
         display: flex;
         width: fit-content;
+        overflow-x: scroll;
     }
     .card_container{
         display: flex;
         width: fit-content;
+        overflow-x: scroll;
     }
-    nav{
-        width: 100vw;
-    }
-    
+        
 } 
