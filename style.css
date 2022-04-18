@@ -4,9 +4,10 @@
 }
 
 body{
-    background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/screen-shot-2020-05-15-at-9-06-38-am-1589548150.png");
+    background-image: url("https://www.zastavki.com/pictures/1920x1080/2015/Auto_Ideal_for_car_garage_096303_23.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 section{
