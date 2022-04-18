@@ -109,7 +109,6 @@ overflow-x: scroll;
     .card_container{
         display: flex;
         width: fit-content;
-        overflow-x: scroll;
     }
 
     .nav_bar{
